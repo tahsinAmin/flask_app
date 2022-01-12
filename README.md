@@ -54,3 +54,12 @@ If facng problem doing the above, then read this: https://blog.miguelgrinberg.co
 - You use the escape() function you imported earlier to render the word string as text. This is important to avoid Cross Site Scripting (XSS) attacks. If the user submits malicious JavaScript instead of a word, escape() will it render as text and the browser will not run it, keeping your web application safe.
 
 - abort() for error responses
+
+  2022.01.12
+
+- https://www.youtube.com/watch?v=k10ILjUyWuQ
+- https://towardsdatascience.com/working-with-apis-using-flask-flask-restplus-and-swagger-ui-7cf447deda7f
+- https://www.tutorialspoint.com/flask/flask_http_methods.htm
+- https://www.tutorialspoint.com/flask/flask_templates.htm
+- https://www.google.com/search?channel=fs&client=ubuntu&q=take+data+from+database+and+show+it+as+JSON+Restful+OpenAPI+using+flask
+- https://realpython.com/flask-connexion-rest-api/
