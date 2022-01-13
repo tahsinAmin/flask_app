@@ -1,4 +1,4 @@
-# Project's Tasks
+# Project Requirements
 
 - [x] Use flask
 - [ ] Using GET method
@@ -6,6 +6,11 @@
 - [ ] Able to search by title, amenities, price, location
 - [ ] I can sort by price
 - [ ] Must use JWT Token
+
+# Breaking down the task
+
+- [x] Able to retrieve data from database
+- [x] Show a json reponse of your data
 
 # Note
 
@@ -54,6 +59,14 @@ If facng problem doing the above, then read this: https://blog.miguelgrinberg.co
 - You use the escape() function you imported earlier to render the word string as text. This is important to avoid Cross Site Scripting (XSS) attacks. If the user submits malicious JavaScript instead of a word, escape() will it render as text and the browser will not run it, keeping your web application safe.
 
 - abort() for error responses
+
+- HTTP (Hypertext Transfer Protocol) is the primary means of communicating data on the web. HTTP implements a number of “methods,” which tell which direction data is moving and what should happen to it. The two most common are GET, which pulls data from a server, and POST, which pushes new data to a server.
+
+- URL (Uniform Resource Locator) - An address for a resource on the web, such as https://programminghistorian.org/about. A URL consists of a protocol (http://), domain (programminghistorian.org), and optional path (/about). A URL describes the location of a specific resource, such as a web page. When reading about APIs, you may see the terms URL, request, URI, or endpoint used to describe adjacent ideas.
+
+- JSON (JavaScript Object Notation) is a text-based data storage format that is designed to be easy to read for both humans and machines. JSON is generally the most common format for returning data through an API, XML being the second most common.
+
+- REST (REpresentational State Transfer) is a philosophy that describes some best practices for implementing APIs. APIs designed with some or all of these principles in mind are called REST APIs. While the API outlined in this lesson uses some REST principles, there is a great deal of disagreement around this term. For this reason, I do not describe the example APIs here as REST APIs, but instead as web or HTTP APIs.
 
   2022.01.12
 
